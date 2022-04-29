@@ -1,0 +1,63 @@
+import { StyleSheet } from "react-native";
+export const styles = StyleSheet.create({
+    buttonText:{
+      color:"white",
+      textAlign:"center",
+      padding:5,
+      fontWeight:"bold",
+    },
+    header: {
+      backgroundColor: '#8c90e0',
+      borderRadius: 20,
+      padding:10,
+      paddingLeft:100,
+      paddingRight:100,
+      marginTop:20,
+      marginBottom: 20,
+      justifyContent:"center",
+      alignItems:"center",
+      alignSelf:"center",
+      //flex:1,
+    },
+    button: {
+      backgroundColor: "white",
+      flex:1,
+      marginEnd:20,
+      justifyContent:'center',
+      flexDirection:"row",
+    },
+    button2: {
+      backgroundColor: '#8c90e0',
+      borderRadius:20,
+      padding:10,
+      marginBottom: 20,
+      marginLeft:20,
+      width:150,
+      height:150,
+      justifyContent:"center",
+      alignItems:"center",
+    },
+    Text: {
+      color: "white",
+      fontSize: 22,
+      fontWeight:"bold",
+    },
+    backgroundStyle: {
+      backgroundColor: "white",
+      flex:1,
+      flexDirection: "row",
+      //paddingTop:40,
+      marginEnd:20,
+      justifyContent:"center",
+    },
+    EditText:{
+      borderColor: '#8c90e0',
+      borderRadius:20,
+      borderWidth:1,
+      padding:10,
+      margin:10,
+      justifyContent:"center",
+      alignItems:"center",
+      width:250,
+    }
+  });
